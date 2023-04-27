@@ -1,0 +1,1456 @@
+16:13:59 [INFO] Using standard Java JCE cipher.
+16:13:59 [INFO] Using standard Java compressor.
+16:13:59 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:13:59 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:13:59 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:13:59 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:13:59 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:13:59 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:13:59 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:14:00 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:14:00 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [WARNING] Forced host server pvp is not defined
+16:14:00 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Attempting to start server
+16:14:00 [SEVERE] java.net.BindException: Address already in use: bind
+16:14:00 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:14:00 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:14:00 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:14:00 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:14:00 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:14:00 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:14:00 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:14:00 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:14:00 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:14:00 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:14:00 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:14:00 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:14:00 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:14:00 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:14:00 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:14:00 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:14:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:00 [WARNING] Could not bind to host /127.0.0.1:25565
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:14:06 [INFO] Using standard Java JCE cipher.
+16:14:06 [INFO] Using standard Java compressor.
+16:14:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:14:06 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:14:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:14:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [WARNING] Forced host server pvp is not defined
+16:14:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Attempting to start server
+16:14:06 [SEVERE] java.net.BindException: Address already in use: bind
+16:14:06 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:14:06 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:14:06 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:14:06 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:14:06 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:14:06 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:14:06 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:14:06 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:14:06 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:14:06 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:14:06 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:14:06 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:14:06 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:14:06 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:14:06 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:14:06 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:14:06 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:06 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:14:07 [WARNING] Could not bind to host /127.0.0.1:25565
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:16:23 [INFO] Using standard Java JCE cipher.
+16:16:23 [INFO] Using standard Java compressor.
+16:16:23 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:16:24 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:16:24 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:16:24 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [WARNING] Forced host server pvp is not defined
+16:16:24 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Attempting to start server
+16:16:24 [SEVERE] java.net.BindException: Address already in use: bind
+16:16:24 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:16:24 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:16:24 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:16:24 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:16:24 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:16:24 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:16:24 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:16:24 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:16:24 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:16:24 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:16:24 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:16:24 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:16:24 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:16:24 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:16:24 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:16:24 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:16:24 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:24 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:16:33 [INFO] Using standard Java JCE cipher.
+16:16:33 [INFO] Using standard Java compressor.
+16:16:33 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:16:33 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:16:33 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:16:33 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [WARNING] Forced host server pvp is not defined
+16:16:33 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Attempting to start server
+16:16:33 [SEVERE] java.net.BindException: Address already in use: bind
+16:16:33 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:16:33 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:16:33 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:16:33 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:16:33 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:16:33 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:16:33 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:16:33 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:16:33 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:16:33 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:16:33 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:16:33 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:16:33 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:16:33 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:16:33 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:16:33 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:16:33 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:33 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:16:34 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:17:16 [INFO] Using standard Java JCE cipher.
+16:17:16 [INFO] Using standard Java compressor.
+16:17:16 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:17:16 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:17:16 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:17:16 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [WARNING] Forced host server pvp is not defined
+16:17:16 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Attempting to start server
+16:17:16 [SEVERE] java.net.BindException: Address already in use: bind
+16:17:16 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:17:16 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:17:16 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:17:16 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:17:16 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:17:16 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:17:16 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:17:16 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:17:16 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:17:16 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:17:16 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:17:16 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:17:16 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:17:16 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:17:16 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:17:16 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:17:16 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:16 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:17:27 [INFO] Closing pending connections
+16:17:27 [INFO] Disconnecting 0 connections
+16:17:28 [INFO] Saving reconnect locations
+16:17:28 [INFO] Disabling plugins
+16:17:28 [INFO] Closing IO threads
+16:17:35 [INFO] Using standard Java JCE cipher.
+16:17:35 [INFO] Using standard Java compressor.
+16:17:35 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:17:35 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:17:35 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:17:35 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [WARNING] Forced host server pvp is not defined
+16:17:35 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:35 [INFO] Attempting to start server
+16:17:36 [SEVERE] java.net.BindException: Address already in use: bind
+16:17:36 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:17:36 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:17:36 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:17:36 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:17:36 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:17:36 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:17:36 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:17:36 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:17:36 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:17:36 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:17:36 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:17:36 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:17:36 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:17:36 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:17:36 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:17:36 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:17:36 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:36 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:36 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:17:36 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:18:02 [INFO] Using standard Java JCE cipher.
+16:18:02 [INFO] Using standard Java compressor.
+16:18:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:18:02 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:18:02 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:18:02 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [WARNING] Forced host server pvp is not defined
+16:18:02 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Attempting to start server
+16:18:02 [SEVERE] java.net.BindException: Address already in use: bind
+16:18:02 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:18:02 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:18:02 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:18:02 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:18:02 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:18:02 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:18:02 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:18:02 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:18:02 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:18:02 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:18:02 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:18:02 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:18:02 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:18:02 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:18:02 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:18:02 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:18:02 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:02 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:18:03 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+16:19:09 [INFO] Using standard Java JCE cipher.
+16:19:09 [INFO] Using standard Java compressor.
+16:19:09 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+16:19:09 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+16:19:09 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+16:19:09 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [WARNING] Forced host server pvp is not defined
+16:19:09 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Attempting to start server
+16:19:09 [SEVERE] java.net.BindException: Address already in use: bind
+16:19:09 [SEVERE] 	at java.base/sun.nio.ch.Net.bind0(Native Method)
+16:19:09 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+16:19:09 [SEVERE] 	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+16:19:09 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+16:19:09 [SEVERE] 	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+16:19:09 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:101)
+16:19:09 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:50)
+16:19:09 [SEVERE] 	at jdk.httpserver/sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:35)
+16:19:09 [SEVERE] 	at jdk.httpserver/com.sun.net.httpserver.HttpServer.create(HttpServer.java:137)
+16:19:09 [SEVERE] 	at net.saltyfishstudios.bungee.BungeeCordHTTPServer.<init>(BungeeCordHTTPServer.java:37)
+16:19:09 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:64)
+16:19:09 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+16:19:09 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+16:19:09 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+16:19:09 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+16:19:09 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+16:19:09 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+16:19:09 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:16:36 [INFO] Using standard Java JCE cipher.
+22:16:36 [INFO] Using standard Java compressor.
+22:16:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+22:16:36 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:16:36 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:36 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:36 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:36 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+22:16:36 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:36 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:36 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:37 [WARNING] Forced host server pvp is not defined
+22:16:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:39 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:16:39 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:16:39 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:16:39 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:16:39 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:16:39 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:16:39 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:16:39 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:16:39 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:16:39 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:16:39 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:16:39 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:189)
+22:16:39 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:73)
+22:16:39 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+22:16:39 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+22:16:39 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+22:16:39 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+22:16:39 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+22:16:39 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:39 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:39 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:16:39 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:37:58 [INFO] Using standard Java JCE cipher.
+22:37:58 [INFO] Using standard Java compressor.
+22:37:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+22:37:58 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:37:58 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Loaded plugin SFN version 1.0.0 by Relizc
+22:37:58 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [WARNING] Forced host server pvp is not defined
+22:37:58 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:37:58 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:38:00 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:00 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:00 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:00 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:00 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:00 [SEVERE] 	at net.saltyfishstudios.bungee.Main.onEnable(Main.java:80)
+22:38:00 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+22:38:00 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+22:38:00 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+22:38:00 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+22:38:00 [INFO] Enabled plugin SFN version 1.0.0 by Relizc
+22:38:00 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:00 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:38:00 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:00 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:00 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:00 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:00 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:00 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:00 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:00 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:00 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:00 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:38:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+22:38:01 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:04 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:04 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:04 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:04 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:04 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:04 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:04 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:04 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:04 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:04 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:04 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:04 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:04 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:04 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:07 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:07 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:07 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:07 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:07 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:07 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:07 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:07 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:07 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:07 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:07 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:07 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:07 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:07 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:07 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:07 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:07 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:10 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:10 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:10 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:10 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:10 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:10 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:10 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:10 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:10 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:10 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:10 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:10 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:10 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:10 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:10 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:10 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:10 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:13 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:13 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:13 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:13 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:13 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:13 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:13 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:13 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:13 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:13 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:13 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:13 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:13 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:13 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:13 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:13 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:13 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:16 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:16 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:16 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:16 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:16 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:16 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:16 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:16 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:16 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:16 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:16 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:16 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:16 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:16 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:16 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:16 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:16 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:19 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:19 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:19 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:19 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:19 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:19 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:19 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:19 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:19 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:19 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:19 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:19 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:19 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:19 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:19 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:19 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:19 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:22 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:22 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:22 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:22 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:22 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:22 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:22 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:22 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:22 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:22 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:22 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:22 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:22 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:22 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:22 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:22 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:22 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:25 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:25 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:25 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:25 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:25 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:25 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:25 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:25 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:25 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:25 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:25 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:25 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:25 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:25 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:25 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:25 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:25 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:28 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:28 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:28 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:28 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:28 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:28 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:28 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:28 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:28 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:28 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:28 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:28 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:28 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:28 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:28 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:28 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:28 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:31 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:31 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:31 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:31 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:31 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:31 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:31 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:31 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:31 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:31 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:31 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:31 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:31 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:31 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:31 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:31 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:31 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:34 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:34 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:34 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:34 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:34 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:34 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:34 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:34 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:34 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:34 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:34 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:34 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:34 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:34 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:34 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:34 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:34 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:37 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:37 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:37 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:37 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:37 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:37 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:37 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:37 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:37 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:37 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:37 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:37 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:37 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:37 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:37 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:37 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:37 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:40 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:40 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:40 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:40 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:40 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:40 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:40 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:40 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:40 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:40 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:40 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:40 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:40 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:40 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:40 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:40 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:40 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:43 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:43 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:43 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:43 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:43 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:43 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:43 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:43 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:43 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:43 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:43 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:43 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:43 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:43 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:43 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:43 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:43 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:46 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:46 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:46 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:46 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:46 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:46 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:46 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:46 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:46 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:46 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:46 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:46 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:46 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:46 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:46 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:46 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:46 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:49 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:49 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:49 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:49 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:49 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:49 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:49 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:49 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:49 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:49 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:49 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:49 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:49 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:49 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:49 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:49 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:49 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:52 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:52 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:52 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:52 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:52 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:52 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:52 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:52 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:52 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:52 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:52 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:52 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:52 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:52 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:52 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:52 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:52 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:55 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:55 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:55 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:55 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:55 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:55 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:55 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:55 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:55 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:55 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:55 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:55 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:55 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:55 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:55 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:55 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:55 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:38:58 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:38:58 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:38:58 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:38:58 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:38:58 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:38:58 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:38:58 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:38:58 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:38:58 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:38:58 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:38:58 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:38:58 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:38:58 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:38:58 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:38:58 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:38:58 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:38:58 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:39:01 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:39:01 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:39:01 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:39:01 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:39:01 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:39:01 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:39:01 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:39:01 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:39:01 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:39:01 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:39:01 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:39:01 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:39:01 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:39:01 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:39:01 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:39:01 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:39:01 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+22:39:04 [SEVERE] java.net.ConnectException: Connection refused: connect
+22:39:04 [SEVERE] 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+22:39:04 [SEVERE] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+22:39:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+22:39:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+22:39:04 [SEVERE] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+22:39:04 [SEVERE] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+22:39:04 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:609)
+22:39:04 [SEVERE] 	at java.base/java.net.Socket.connect(Socket.java:558)
+22:39:04 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:454)
+22:39:04 [SEVERE] 	at java.base/java.net.Socket.<init>(Socket.java:231)
+22:39:04 [SEVERE] 	at net.itsrelizc.networking.Communication.sendMessage(Communication.java:190)
+22:39:04 [SEVERE] 	at net.saltyfishstudios.bungee.Main$1.run(Main.java:69)
+22:39:04 [SEVERE] 	at net.md_5.bungee.scheduler.BungeeTask.run(BungeeTask.java:63)
+22:39:04 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+22:39:04 [SEVERE] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+22:39:04 [SEVERE] 	at java.base/java.lang.Thread.run(Thread.java:829)
+19:51:58 [INFO] Using standard Java JCE cipher.
+19:51:58 [INFO] Using standard Java compressor.
+19:51:58 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+19:51:58 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:51:58 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+19:51:58 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [WARNING] Forced host server pvp is not defined
+19:51:58 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] @ PacketID: 1416953392 -OUT-> 
+19:51:58 [INFO] @ PacketID: 774825927 -OUT-> 
+19:51:58 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+19:51:58 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:58 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:51:59 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+19:51:59 [INFO] @ PacketID: 115497550 -OUT-> 
+19:52:00 [INFO] @ PacketID: 126885410 -OUT-> 
+19:52:01 [INFO] @ PacketID: 477045845 -OUT-> 
+19:52:02 [INFO] @ PacketID: 1793181534 -OUT-> 
+19:52:03 [INFO] @ PacketID: 660324892 -OUT-> 
+19:52:03 [INFO] Closing pending connections
+19:52:03 [INFO] Disconnecting 0 connections
+19:52:04 [INFO] Disabling plugins
+19:52:04 [INFO] Closing IO threads
+15:25:32 [INFO] Using standard Java JCE cipher.
+15:25:32 [INFO] Using standard Java compressor.
+15:25:32 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+15:25:32 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:25:32 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+15:25:32 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [WARNING] Forced host server pvp is not defined
+15:25:32 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] @ PacketID: 789120034 -OUT-> 
+15:25:32 [INFO] @ PacketID: 275732734 -OUT-> 
+15:25:32 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+15:25:32 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:32 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+15:25:33 [INFO] @ PacketID: 1563450233 -OUT-> 
+15:25:48 [INFO] Using standard Java JCE cipher.
+15:25:48 [INFO] Using standard Java compressor.
+15:25:48 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+15:25:48 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+15:25:48 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+15:25:48 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [WARNING] Forced host server pvp is not defined
+15:25:48 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] @ PacketID: 1377671664 -OUT-> 
+15:25:48 [INFO] @ PacketID: 205756107 -OUT-> 
+15:25:48 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+15:25:48 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+15:25:48 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+19:03:13 [INFO] Using standard Java JCE cipher.
+19:03:13 [INFO] Using standard Java compressor.
+19:03:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+19:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:03:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+19:03:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [WARNING] Forced host server pvp is not defined
+19:03:13 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] @ PacketID: 1933750021 -OUT-> 
+19:03:13 [INFO] @ PacketID: 1768688173 -OUT-> 
+19:03:13 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+19:03:13 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:03:13 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+19:19:00 [INFO] Using standard Java JCE cipher.
+19:19:00 [INFO] Using standard Java compressor.
+19:19:00 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:1b6d845:1679
+19:19:00 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+19:19:00 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+19:19:00 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [WARNING] Forced host server pvp is not defined
+19:19:00 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] @ PacketID: 1724450257 -OUT-> 
+19:19:00 [INFO] @ PacketID: 1235223762 -OUT-> 
+19:19:00 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+19:19:00 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:1b6d845:1679 by SpigotMC
+19:19:00 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+21:15:57 [INFO] Using standard Java JCE cipher.
+21:15:57 [INFO] Using standard Java compressor.
+21:15:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:a0a4fa0:1695
+21:15:58 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+21:15:58 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+21:15:58 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [WARNING] Forced host server pvp is not defined
+21:15:58 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] @ PacketID: 729843910 -OUT-> 
+21:15:58 [INFO] @ PacketID: 1103243840 -OUT-> 
+21:15:58 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+21:15:58 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:15:58 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:16:23 [INFO] Using standard Java JCE cipher.
+21:16:23 [INFO] Using standard Java compressor.
+21:16:23 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:a0a4fa0:1695
+21:16:23 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+21:16:23 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+21:16:23 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [WARNING] Forced host server pvp is not defined
+21:16:23 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] @ PacketID: 2031353129 -OUT-> 
+21:16:23 [INFO] @ PacketID: 641599147 -OUT-> 
+21:16:23 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+21:16:23 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:23 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21:16:39 [INFO] Using standard Java JCE cipher.
+21:16:39 [INFO] Using standard Java compressor.
+21:16:39 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:a0a4fa0:1695
+21:16:39 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+21:16:39 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:39 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:39 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+21:16:39 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:39 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:39 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:39 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [WARNING] Forced host server pvp is not defined
+21:16:40 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [INFO] @ PacketID: 1083940718 -OUT-> 
+21:16:40 [INFO] @ PacketID: 130523930 -OUT-> 
+21:16:40 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+21:16:40 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+21:16:40 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+22:05:09 [INFO] Using standard Java JCE cipher.
+22:05:09 [INFO] Using standard Java compressor.
+22:05:09 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:a0a4fa0:1695
+22:05:09 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+22:05:09 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Loaded plugin RSBungee version 1.0.0 by Relizc
+22:05:09 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [WARNING] Forced host server pvp is not defined
+22:05:09 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] @ PacketID: 550174026 -OUT-> 
+22:05:09 [INFO] @ PacketID: 1062351462 -OUT-> 
+22:05:09 [INFO] Enabled plugin RSBungee version 1.0.0 by Relizc
+22:05:09 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:a0a4fa0:1695 by SpigotMC
+22:05:09 [WARNING] Could not bind to host /127.0.0.1:126
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)

@@ -1,0 +1,292 @@
+[19:59:51] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:59:51] [Server thread/INFO]: Loading properties
+[19:59:51] [Server thread/INFO]: Default game type: SURVIVAL
+[19:59:51] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-741a1bd (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:59:51] [Server thread/INFO]: Debug logging is disabled
+[19:59:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[19:59:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:59:51] [Server thread/INFO]: Generating keypair
+[19:59:51] [Server thread/INFO]: Starting Minecraft server on *:24135
+[19:59:51] [Server thread/INFO]: Using default channel type
+[19:59:51] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[19:59:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:59:51] [Server thread/INFO]: [RSMainLobby] Loading RSMainLobby v1.0.0
+[19:59:51] [Server thread/INFO]: [RSBundler] Loading RSBundler vstable-3.33.27
+[19:59:51] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[19:59:51] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[19:59:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:59:51] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:59:51] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:59:51] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:59:51] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:59:51] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:59:51] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:59:51] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[19:59:51] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[19:59:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:59:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:59:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:59:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:59:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:59:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:59:52] [Server thread/INFO]: Preparing level "world"
+[19:59:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:59:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:59:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:59:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:59:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:59:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:59:52] [Server thread/INFO]: View Distance: 10
+[19:59:52] [Server thread/INFO]: Mob Spawn Range: 4
+[19:59:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:59:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:59:52] [Server thread/INFO]: Anti X-Ray: true
+[19:59:52] [Server thread/INFO]: 	Engine Mode: 1
+[19:59:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:59:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:59:52] [Server thread/INFO]: Structure Info Saving: true
+[19:59:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:59:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:59:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:59:52] [Server thread/INFO]: Random Lighting Updates: false
+[19:59:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:59:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:59:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:59:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:59:52] [Server thread/INFO]: Max Entity Collisions: 8
+[19:59:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:59:52] [Server thread/INFO]: Clear tick list: false
+[19:59:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:59:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4495347448867682294)
+[19:59:52] [Server thread/INFO]: [RSMainLobby] Enabling RSMainLobby v1.0.0
+[19:59:52] [Server thread/INFO]: [RSBundler] Enabling RSBundler vstable-3.33.27
+[19:59:52] [Server thread/INFO]: [RSBundler] SFN Global Library had been sucessfully installed!
+[19:59:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[19:59:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:59:52] [Server thread/INFO]: Done (0.222s)! For help, type "help" or "?"
+[19:59:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[19:59:52] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[19:59:52] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:59:53] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.6.2, you're on: 4.4.2
+[20:00:26] [Thread-5/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:00:26] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:00:26] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3c6192df[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:51440): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 13m 40s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6Extreme Hostile Language ¡ì8NAC-24812736201 [CHAT]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:00:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@3c6192df[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:51440) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 13m 40s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6Extreme Hostile Language ¡ì8NAC-24812736201 [CHAT]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:02:39] [Thread-6/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:02:39] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:02:39] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@299949b3[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:52006): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 11m 27s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:02:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@299949b3[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:52006) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 11m 27s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:03:18] [Thread-7/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:03:18] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:03:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2466ec2b[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:52179): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 10m 48s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:03:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@2466ec2b[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:52179) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 10m 48s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:04:18] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[20:04:20] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[20:08:41] [Thread-8/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:08:41] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:08:41] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@35fff38e[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:60966): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 5m 25s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:08:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@35fff38e[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:60966) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 5m 25s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:08:52] [Thread-9/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:08:52] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[20:08:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3bc4938[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:61018): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 5m 14s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[20:08:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@3bc4938[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:61018) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 15h 5m 14s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[21:16:53] [Thread-10/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[21:16:53] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[21:16:53] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@716e4007[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:63059): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 13h 57m 13s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[21:16:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@716e4007[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:63059) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 13h 57m 13s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[23:00:44] [Thread-11/INFO]: UUID of player Relizc is 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[23:00:44] [Server thread/INFO]: 9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c
+[23:00:44] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@625b58e8[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:58466): ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 12h 13m 22s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)
+[23:00:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@625b58e8[id=9fec5a8f-aaf8-39ec-aac7-7f66ae531d4c,name=Relizc,properties={},legacy=false] (/127.0.0.1:58466) lost connection: ¡ìcDue to your violation of our "Terms Of Services"¡ìr¡ìc, your account
+¡ìchas been temporarily suspended to access our server for
+¡ìb¡ìl5387d 12h 13m 22s
+
+¡ìcYou have been suspended due to the following reason:¡ìb
+¡ì6NoClip¡ì7, ¡ì6BHop¡ì7, ¡ì6KillAura¡ì7, ¡ì6and +36 more violations. ¡ì8NAC-4992817321 [GameDedication]
+
+¡ì7This ban decision is ¡ìcFINAL¡ì7, which no appeals are accepted and no
+¡ì7exceptions will be tolerated. This might be a result of obvious
+¡ì7rule breaking or continuous spamming appeals.
+
+¡ìbAppeals are not accepted for this ban.
+
+¡ì80x0000023A (9fec5a8faaf839ecaac77f66ae531d4c)

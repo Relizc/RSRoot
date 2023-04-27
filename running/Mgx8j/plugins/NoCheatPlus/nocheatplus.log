@@ -1,0 +1,157 @@
+22-12-10 19:07:39 [INFO] Logger started.
+22-12-10 19:07:39 [INFO] Logging system initialized.
+22-12-10 19:07:39 [INFO] Detected Minecraft version: 1.19.2
+22-12-10 19:07:46 [WARNING] Running in Bukkit-API-only mode (3607-Spigot-6198b5a-e7aab54 (MC: 1.19.2)). If this is not intended, please check for updates and consider to request support.
+22-12-10 19:07:46 [WARNING]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+22-12-10 19:07:46 [WARNING]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+22-12-10 19:07:46 [WARNING] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+22-12-10 19:07:46 [INFO] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.5 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.8 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.9 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.10 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.11 blocks.
+22-12-10 19:07:46 [INFO] Added block-info for Minecraft 1.12 blocks.
+22-12-10 19:07:46 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+22-12-10 19:07:46 [WARNING] Packet level access via ProtocolLib not available, supported configurations:  | ProtocolLib 4.3.0 or later for Minecraft 1.12.x | ProtocolLib 4.2.0 or later for Minecraft 1.11.x | ProtocolLib 4.1 or later for Minecraft 1.8.x to 1.10.x | ProtocolLib 3.7.0 for Minecraft 1.7.x and earlier | ProtocolLib 3.6.6 for PaperSpigot 1.8.x
+22-12-10 19:07:46 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+22-12-10 19:07:46 [INFO] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.stats.Counters
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.workaround.WRPT
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.location.tracking.LocationTrace$TraceEntryPool
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.utilities.entity.PassengerUtil
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: java.util.Random
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.IBridgeCrossPlugin: fr.neatmonster.nocheatplus.compat.meta.BridgeCrossPlugin
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.compat.MCAccess: fr.neatmonster.nocheatplus.compat.bukkit.MCAccessBukkit
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.utilities.map.BlockCache: fr.neatmonster.nocheatplus.compat.bukkit.BlockCacheBukkit
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.modifier.IAttributeAccess: fr.neatmonster.nocheatplus.compat.bukkit.BukkitAttributeAccess
+22-12-10 19:07:46 [INFO] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for fr.neatmonster.nocheatplus.components.entity.IEntityAccessVehicle: fr.neatmonster.nocheatplus.compat.bukkit.EntityAccessVehicleMultiPassenger
+22-12-10 19:07:46 [INFO] [GenericInstanceRegistry] Registered for itself: fr.neatmonster.nocheatplus.checks.moving.util.AuxMoving
+22-12-10 19:07:46 [INFO] Added hook: AllViolations(NCP) [1.0].
+22-12-10 19:07:46 [INFO] Post-enable running...
+22-12-10 19:07:47 [INFO] Post-enable finished.
+22-12-10 19:07:47 [INFO] ---- Version information ----
+#### Server ####
+3607-Spigot-6198b5a-e7aab54 ~MC: 1.19.2~
+  detected: 1.19.2
+#### NoCheatPlus ####
+Plugin: 3.16.0-RC-sMD5NET-b1134
+MCAccess: 1.4.6-1.11.2|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9 | BlocksMC1_10 | BlocksMC1_11 | BlocksMC1_12
+  checks: FastConsume | Gutenberg | HotFixFallingBlockPortalEnter
+  defaults: pvpKnockBackVelocity
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v5.0.0-SNAPSHOT-b602
+22-12-10 19:08:05 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.43, 62.30, -465.96 -> 142.43, 63.75, -465.96, d=1.45 (swimup). VL 164.
+22-12-10 19:08:06 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.43, 62.30, -465.96 -> 142.43, 63.75, -465.96, d=1.45 (swimup). VL 486.
+22-12-10 19:08:07 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.43, 62.30, -465.96 -> 142.43, 63.75, -465.96, d=1.45 (swimup). VL 1619.
+22-12-10 19:08:07 [INFO] (CONSOLE) Kicked Lionwhisker : Kicked for flying (or related)
+22-12-10 19:08:10 [INFO] (CONSOLE) Kicked Lionwhisker : Kicked for flying (or related)
+22-12-10 19:08:20 [INFO] NightmareYoke failed SurvivalFly: tried to move: -28.45, 60.42, -2.30 -> -28.37, 60.47, -2.47, d=0.19 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 13.
+22-12-10 19:08:27 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.43, 62.25, -465.96 -> 142.43, 62.83, -465.96, d=0.58 (swimup). VL 1693.
+22-12-10 19:08:27 [INFO] (CONSOLE) Kicked Lionwhisker : Kicked for flying (or related)
+22-12-10 19:08:31 [INFO] Lionwhisker failed Relog: relogs too fast. VL 1.
+22-12-10 19:08:33 [INFO] NightmareYoke failed SurvivalFly: tried to move: -33.03, 62.45, -25.45 -> -33.08, 62.59, -25.53, d=0.17 (swimup). VL 0.
+22-12-10 19:08:38 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.43, 62.22, -465.96 -> 142.43, 62.83, -465.96, d=0.60 (swimup). VL 1733.
+22-12-10 19:08:38 [INFO] (CONSOLE) Kicked Lionwhisker : Kicked for flying (or related)
+22-12-10 19:08:51 [INFO] Lionwhisker failed SurvivalFly: tried to move: 142.01, 62.39, -465.56 -> 142.02, 62.53, -465.48, d=0.16 (swimup). VL 655.
+22-12-10 19:08:54 [INFO] Lionwhisker failed SurvivalFly: tried to move: 139.05, 62.04, -465.01 -> 138.84, 62.02, -464.94, d=0.22 (hacc). VL 228.
+22-12-10 19:08:59 [INFO] Lionwhisker failed SurvivalFly: tried to move: 131.74, 61.37, -467.57 -> 131.70, 61.51, -467.66, d=0.17 (swimup). VL 58.
+22-12-10 19:09:15 [INFO] Lionwhisker failed SurvivalFly: tried to move: 110.26, 60.65, -481.86 -> 110.08, 60.67, -481.86, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 9.
+22-12-10 19:09:26 [INFO] Lionwhisker failed SurvivalFly: tried to move: 101.25, 60.95, -482.96 -> 101.09, 61.09, -483.02, d=0.22 (bunnyenv+permchecks+bunnyenv+hbufuse+swimup). VL 0.
+22-12-10 19:09:36 [INFO] Lionwhisker failed SurvivalFly: tried to move: 87.84, 62.04, -493.10 -> 87.77, 62.18, -493.07, d=0.16 (swimup). VL 1.
+22-12-10 19:09:37 [INFO] Lionwhisker failed SurvivalFly: tried to move: 87.52, 62.79, -492.91 -> 86.81, 62.76, -492.86, d=0.71 (permchecks+hspeed). VL 153.
+22-12-10 19:09:37 [INFO] Lionwhisker failed SurvivalFly: tried to move: 87.52, 62.79, -492.91 -> 87.52, 63.35, -492.91, d=0.56 (swimup). VL 429.
+22-12-10 19:10:07 [INFO] Lionwhisker failed SurvivalFly: tried to move: 45.91, 64.50, -479.95 -> 45.91, 64.50, -479.95, d=0.00 (dirty+ychdec+vaccdirty). VL 8.
+22-12-10 19:10:22 [INFO] Lionwhisker failed SurvivalFly: tried to move: 36.28, 65.02, -502.85 -> 36.28, 65.02, -502.85, d=0.00 (dirty+vdistrel+ychdec). VL 21.
+22-12-10 19:10:36 [INFO] Lionwhisker failed SurvivalFly: tried to move: 53.27, 65.02, -497.44 -> 53.27, 65.02, -497.44, d=0.00 (vdistrel+ychdec+maxphase). VL 21.
+22-12-10 19:10:44 [INFO] Lionwhisker failed SurvivalFly: tried to move: 43.49, 64.00, -535.39 -> 43.22, 64.00, -535.98, d=0.65 (permchecks+hspeed). VL 129.
+22-12-10 19:10:44 [INFO] Lionwhisker failed MorePackets: sent too many moves (10 epsacc). VL 10.
+22-12-10 19:10:44 [INFO] Lionwhisker failed SurvivalFly: tried to move: 43.49, 64.00, -535.39 -> 43.22, 64.00, -535.98, d=0.65 (permchecks+hspeed). VL 411.
+22-12-10 19:11:27 [INFO] Lionwhisker failed Direction: tried to hit an entity out of line of sight. VL 6.
+22-12-10 19:11:35 [INFO] Lionwhisker failed Direction: tried to hit an entity out of line of sight. VL 8.
+22-12-10 19:11:40 [INFO] Lionwhisker failed SurvivalFly: tried to move: 87.56, 57.41, -515.75 -> 87.67, 57.55, -515.78, d=0.18 (swimup). VL 1.
+22-12-10 19:11:50 [INFO] Lionwhisker failed SurvivalFly: tried to move: 82.62, 61.14, -524.72 -> 82.51, 61.28, -524.77, d=0.18 (permchecks+hbufuse+swimup). VL 29.
+22-12-10 19:11:52 [INFO] NightmareYoke failed Passable: moved into a block ([blocktype]) from -85.69, 50.68, -127.13 to -85.71, 50.65, -127.13 distance 0.04 . VL 11.
+22-12-10 19:11:55 [INFO] NightmareYoke failed SurvivalFly: tried to move: -85.37, 51.34, -127.70 -> -85.33, 51.50, -127.69, d=0.17 (swimup). VL 4.
+22-12-10 19:12:06 [INFO] NightmareYoke failed SurvivalFly: tried to move: -84.95, 62.68, -127.10 -> -84.95, 62.82, -127.10, d=0.14 (swimup). VL 11.
+22-12-10 19:12:16 [INFO] NightmareYoke failed SurvivalFly: tried to move: -84.70, 53.97, -129.70 -> -84.70, 54.11, -129.70, d=0.14 (swimup). VL 0.
+22-12-10 19:12:26 [INFO] NightmareYoke failed SurvivalFly: tried to move: -95.39, 62.67, -129.99 -> -95.49, 62.80, -129.97, d=0.17 (swimup). VL 4.
+22-12-10 19:12:36 [INFO] NightmareYoke failed SurvivalFly: tried to move: -123.70, 61.89, -122.51 -> -123.70, 62.03, -122.52, d=0.14 (swimup). VL 0.
+22-12-10 19:13:10 [INFO] NightmareYoke failed SurvivalFly: tried to move: -120.67, 60.05, -121.44 -> -120.67, 60.20, -121.60, d=0.22 (bunnyenv+permchecks+bunnyenv+hbufuse+swimup). VL 1.
+22-12-10 19:13:50 [INFO] NightmareYoke failed SurvivalFly: tried to move: -47.58, 57.27, -15.68 -> -47.64, 57.20, -15.52, d=0.19 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 3.
+22-12-10 19:14:09 [INFO] NightmareYoke failed SurvivalFly: tried to move: -45.55, 59.54, 11.60 -> -45.46, 59.54, 11.76, d=0.19 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 3.
+22-12-10 19:14:37 [INFO] NightmareYoke failed SurvivalFly: tried to move: -9.42, 59.01, 35.94 -> -9.36, 58.99, 35.90, d=0.08 (hacc). VL 1.
+22-12-10 19:14:47 [INFO] NightmareYoke failed SurvivalFly: tried to move: 2.37, 62.79, 30.81 -> 2.47, 62.93, 30.78, d=0.17 (swimup). VL 6.
+22-12-10 19:14:57 [INFO] NightmareYoke failed SurvivalFly: tried to move: 22.64, 54.54, 21.68 -> 22.76, 54.54, 21.55, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 12.
+22-12-10 19:15:10 [INFO] NightmareYoke failed SurvivalFly: tried to move: 36.18, 55.69, 19.88 -> 36.33, 55.28, 19.97, d=0.44 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 5.
+22-12-10 19:15:20 [INFO] NightmareYoke failed SurvivalFly: tried to move: 43.24, 62.18, 22.05 -> 43.30, 62.32, 22.05, d=0.16 (swimup). VL 49.
+22-12-10 19:15:30 [INFO] NightmareYoke failed SurvivalFly: tried to move: 62.63, 59.26, 21.95 -> 62.81, 59.25, 21.90, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 3.
+22-12-10 19:15:49 [INFO] NightmareYoke failed SurvivalFly: tried to move: 91.55, 61.22, 10.31 -> 91.64, 61.36, 10.26, d=0.17 (swimup). VL 1.
+22-12-10 19:16:04 [INFO] NightmareYoke failed SurvivalFly: tried to move: 112.15, 57.67, -1.41 -> 112.24, 57.81, -1.46, d=0.17 (swimup). VL 1.
+22-12-10 19:16:17 [INFO] NightmareYoke failed SurvivalFly: tried to move: 128.61, 61.95, -7.36 -> 128.69, 62.09, -7.36, d=0.16 (swimup). VL 1.
+22-12-10 19:16:28 [INFO] NightmareYoke failed SurvivalFly: tried to move: 145.46, 61.19, -7.81 -> 145.55, 61.33, -7.81, d=0.17 (swimup). VL 1.
+22-12-10 19:16:43 [INFO] NightmareYoke failed SurvivalFly: tried to move: 165.86, 61.46, -9.05 -> 165.96, 61.60, -9.05, d=0.17 (swimup). VL 1.
+22-12-10 19:16:57 [INFO] NightmareYoke failed SurvivalFly: tried to move: 187.64, 61.17, -2.80 -> 187.80, 61.28, -2.70, d=0.22 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 6.
+22-12-10 19:17:24 [INFO] NightmareYoke failed SurvivalFly: tried to move: 194.36, 61.02, -7.01 -> 194.27, 61.16, -7.02, d=0.17 (swimup). VL 1.
+22-12-10 19:17:28 [INFO] Lionwhisker failed Passable: moved into a block ([blocktype]) from -55.70, 64.00, 59.99 to -55.72, 64.00, 59.98 distance 0.03 . VL 10.
+22-12-10 19:17:34 [INFO] NightmareYoke failed SurvivalFly: tried to move: 195.11, 62.16, -2.07 -> 195.04, 62.30, -2.08, d=0.16 (swimup). VL 1.
+22-12-10 19:17:34 [INFO] Lionwhisker failed Passable: moved into a block ([blocktype]) from -62.89, 64.00, 59.21 to -63.27, 64.00, 59.13 distance 0.39 . VL 15.
+22-12-10 19:17:44 [INFO] NightmareYoke failed SurvivalFly: tried to move: 195.47, 59.50, -5.20 -> 195.42, 59.60, -5.33, d=0.17 (permchecks+hbufuse+hacc). VL 1.
+22-12-10 19:17:55 [INFO] Lionwhisker failed SurvivalFly: tried to move: -93.28, 64.00, 54.97 -> -93.25, 64.56, 54.61, d=0.67 (bunnyhop+vdistrel). VL 77.
+22-12-10 19:17:55 [INFO] Lionwhisker failed SurvivalFly: tried to move: -93.28, 64.00, 54.97 -> -93.23, 64.00, 54.27, d=0.70 (permchecks+hspeed). VL 125.
+22-12-10 19:17:56 [INFO] NightmareYoke failed SurvivalFly: tried to move: 197.51, 62.03, -17.52 -> 197.51, 62.17, -17.52, d=0.14 (swimup). VL 3.
+22-12-10 19:18:05 [INFO] Lionwhisker failed SurvivalFly: tried to move: -92.55, 61.41, 43.47 -> -92.52, 61.56, 43.39, d=0.18 (vacc). VL 39.
+22-12-10 19:18:08 [INFO] NightmareYoke failed SurvivalFly: tried to move: 195.68, 58.99, -18.20 -> 195.73, 59.12, -18.30, d=0.17 (hacc). VL 1.
+22-12-10 19:18:15 [INFO] Lionwhisker failed SurvivalFly: tried to move: -92.33, 62.45, 43.06 -> -92.33, 62.60, 43.24, d=0.24 (bunnyenv+permchecks+bunnyenv+hbufuse+swimup). VL 14.
+22-12-10 19:18:19 [INFO] NightmareYoke failed SurvivalFly: tried to move: 200.29, 62.20, -18.74 -> 200.33, 62.34, -18.65, d=0.17 (swimup). VL 4.
+22-12-10 19:18:29 [INFO] NightmareYoke failed SurvivalFly: tried to move: 197.14, 59.18, -1.46 -> 197.16, 59.20, -1.29, d=0.16 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 10.
+22-12-10 19:18:46 [INFO] Lionwhisker failed SurvivalFly: tried to move: -98.45, 62.00, 69.67 -> -96.50, 63.00, 71.50, d=2.86 (permchecks+hbufuse+hspeed+swimup). VL 225.
+22-12-10 19:18:46 [INFO] Lionwhisker failed SurvivalFly: tried to move: -98.45, 62.00, 69.67 -> -96.50, 63.00, 71.50, d=2.86 (permchecks+hspeed+swimup). VL 551.
+22-12-10 19:18:46 [INFO] NightmareYoke failed SurvivalFly: tried to move: 192.45, 60.63, 1.11 -> 192.44, 60.78, 1.14, d=0.15 (swimup). VL 1.
+22-12-10 19:18:47 [INFO] Lionwhisker failed SurvivalFly: tried to move: -97.93, 63.54, 69.71 -> -91.43, 63.00, 76.52, d=9.43 (dirty+permchecks+hbufuse+hspeed). VL 1689.
+22-12-10 19:18:47 [INFO] (CONSOLE) Kicked Lionwhisker : Kicked for flying (or related)
+22-12-10 19:20:15 [INFO] Lionwhisker failed SurvivalFly: tried to move: -79.84, 72.00, 149.95 -> -80.03, 72.56, 150.26, d=0.67 (bunnyhop+vdistrel). VL 105.
+22-12-10 19:21:19 [INFO] Lionwhisker failed SurvivalFly: tried to move: -208.33, 61.97, 200.28 -> -208.40, 62.11, 200.21, d=0.18 (swimup). VL 3.
+22-12-10 19:21:23 [INFO] Lionwhisker failed SurvivalFly: tried to move: -208.63, 63.02, 200.15 -> -208.70, 63.37, 200.14, d=0.36 (vdistrel+vdistsb). VL 106.
+22-12-10 19:21:32 [INFO] Lionwhisker failed SurvivalFly: tried to move: -211.18, 63.03, 198.87 -> -211.47, 63.45, 198.65, d=0.56 (dirty+permchecks+hbufuse+vdistrel+ychincfly+vaccdirty). VL 431.
+22-12-10 19:21:37 [INFO] Lionwhisker failed SurvivalFly: tried to move: -221.46, 65.25, 192.87 -> -221.89, 65.67, 192.63, d=0.64 (bunnyenv+permchecks+bunnyenv+hbufuse+vdistrel). VL 653.
+22-12-10 19:23:30 [INFO] Lionwhisker failed SurvivalFly: tried to move: -165.56, 60.17, 132.94 -> -165.38, 60.11, 132.94, d=0.20 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 5.
+22-12-10 19:23:52 [INFO] Lionwhisker failed SurvivalFly: tried to move: -155.30, 58.46, 132.89 -> -155.30, 58.60, 132.89, d=0.14 (swimup). VL 1.
+22-12-10 19:24:01 [INFO] Lionwhisker failed SurvivalFly: tried to move: -145.30, 62.86, 133.03 -> -145.20, 62.86, 133.03, d=0.10 (waterwalk). VL 104.
+22-12-10 19:24:05 [INFO] Lionwhisker failed SurvivalFly: tried to move: -138.57, 62.17, 133.06 -> -138.56, 62.13, 133.06, d=0.05 (hacc). VL 35.
+22-12-10 19:24:15 [INFO] Lionwhisker failed SurvivalFly: tried to move: -128.04, 62.65, 133.10 -> -127.85, 62.65, 133.10, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+waterwalk). VL 25.
+22-12-10 19:24:27 [INFO] Lionwhisker failed SurvivalFly: tried to move: -119.35, 62.57, 129.46 -> -119.16, 62.56, 129.46, d=0.19 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 6.
+22-12-10 19:25:01 [INFO] NightmareYoke failed SurvivalFly: tried to move: 33.97, 61.25, 1019.34 -> 33.92, 61.35, 1019.50, d=0.20 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 14.
+22-12-10 19:25:19 [INFO] Lionwhisker failed SurvivalFly: tried to move: -35.94, 76.00, 118.64 -> -35.62, 76.42, 118.65, d=0.53 (permchecks+hbufuse+hspeed). VL 2.
+22-12-10 19:25:19 [INFO] Lionwhisker failed SurvivalFly: tried to move: -35.94, 76.00, 118.64 -> -35.62, 76.00, 118.65, d=0.33 (bunnyenv+permchecks+bunnyenv+hspeed). VL 103.
+22-12-10 19:25:29 [INFO] Lionwhisker failed SurvivalFly: tried to move: -4.66, 59.40, 135.44 -> -4.51, 59.51, 135.55, d=0.22 (bunnyenv+permchecks+bunnyenv+hbufuse+hacc). VL 8.
+22-12-10 19:25:35 [INFO] NightmareYoke failed MorePackets: sent too many moves (10 epsacc). VL 10.
+22-12-10 19:25:39 [INFO] NightmareYoke failed MorePackets: sent too many moves (10 epsacc). VL 10.
+22-12-10 19:25:41 [INFO] Lionwhisker failed SurvivalFly: tried to move: 6.70, 62.73, 148.46 -> 6.82, 62.87, 148.61, d=0.24 (bunnyenv+permchecks+bunnyenv+hbufuse+swimup). VL 12.
+22-12-10 19:25:42 [INFO] NightmareYoke failed SurvivalFly: tried to move: -49.51, 62.39, 1173.92 -> -49.47, 62.53, 1174.01, d=0.17 (swimup). VL 1.
+22-12-10 19:25:52 [INFO] Lionwhisker failed SurvivalFly: tried to move: 26.17, 60.85, 160.81 -> 26.35, 60.88, 160.82, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 35.
+22-12-10 19:25:55 [INFO] NightmareYoke failed SurvivalFly: tried to move: -50.58, 61.68, 1200.65 -> -50.61, 61.74, 1200.84, d=0.21 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 2.
+22-12-10 19:26:02 [INFO] Lionwhisker failed SurvivalFly: tried to move: 45.52, 62.53, 165.21 -> 45.62, 62.53, 165.24, d=0.10 (waterwalk). VL 103.
+22-12-10 19:26:06 [INFO] NightmareYoke failed SurvivalFly: tried to move: -55.81, 60.34, 1225.05 -> -55.88, 60.38, 1225.22, d=0.19 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 18.
+22-12-10 19:26:06 [INFO] Lionwhisker failed SurvivalFly: tried to move: 42.07, 60.65, 171.34 -> 41.99, 60.80, 171.51, d=0.23 (bunnyenv+permchecks+bunnyenv+hbufuse+swimup). VL 94.
+22-12-10 19:26:12 [INFO] NightmareYoke failed SurvivalFly: tried to move: -58.80, 62.79, 1235.58 -> -58.84, 62.79, 1235.67, d=0.10 (waterwalk). VL 103.
+22-12-10 19:26:22 [INFO] NightmareYoke failed SurvivalFly: tried to move: -63.41, 62.63, 1247.48 -> -63.47, 62.63, 1247.64, d=0.17 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 319.
+22-12-10 19:26:34 [INFO] NightmareYoke failed SurvivalFly: tried to move: -64.87, 62.53, 1264.54 -> -64.92, 62.67, 1264.62, d=0.17 (swimup). VL 22.
+22-12-10 19:26:39 [INFO] Lionwhisker failed SurvivalFly: tried to move: 102.67, 69.58, 211.44 -> 102.67, 69.58, 211.44, d=0.00 (vdistrel+ychdec+vacc+maxphase). VL 63.
+22-12-10 19:26:40 [INFO] Lionwhisker failed SurvivalFly: tried to move: 99.87, 70.61, 209.91 -> 99.54, 70.60, 210.70, d=0.85 (dirty+permchecks+hvel+vaccdirty). VL 171.
+22-12-10 19:26:53 [INFO] Lionwhisker failed SurvivalFly: tried to move: 110.70, 61.69, 241.39 -> 110.70, 61.83, 241.48, d=0.16 (swimup). VL 0.
+22-12-10 19:27:24 [INFO] Lionwhisker failed SurvivalFly: tried to move: 135.82, 62.03, 275.51 -> 135.88, 62.00, 275.58, d=0.10 (hacc). VL 2.
+22-12-10 19:27:31 [INFO] NightmareYoke failed SurvivalFly: tried to move: -276.91, 60.26, 1510.38 -> -277.01, 60.25, 1510.53, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 12.
+22-12-10 19:27:34 [INFO] Lionwhisker failed SurvivalFly: tried to move: 137.44, 59.42, 291.97 -> 137.44, 59.39, 292.14, d=0.18 (bunnyenv+permchecks+bunnyenv+hbufuse+hspeed). VL 10.
+22-12-10 19:27:49 [INFO] Lionwhisker failed SurvivalFly: tried to move: 135.81, 59.12, 297.40 -> 135.86, 59.10, 297.39, d=0.06 (hacc). VL 0.
+22-12-10 19:27:59 [INFO] Lionwhisker failed SurvivalFly: tried to move: 136.00, 60.83, 301.94 -> 135.99, 61.01, 301.99, d=0.18 (swimup). VL 6.
+22-12-10 19:28:02 [INFO] NightmareYoke failed SurvivalFly: tried to move: -360.98, 62.66, 1633.32 -> -360.92, 62.80, 1633.32, d=0.15 (swimup). VL 0.
+22-12-10 19:28:29 [INFO] Removed hook: AllViolations(NCP) [1.0].
+22-12-10 19:28:29 [FINE] | cancel.dead 0 | cancel.offline 0 | block.interact.look.current 525 (525/0) | block.interact.look.flying.first 0 | block.interact.look.flying.other 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move 37255 (37255/0) |
+22-12-10 19:28:29 [INFO] [GenericInstanceRegistry] Registry cleared.
